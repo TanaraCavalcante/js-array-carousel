@@ -15,7 +15,7 @@ body{
 }
 
 #carousel{
-    width: 700px;
+    width: 800px;
     height: 350px;
     margin: 70px auto;
     border: 3px dashed rgb(0, 255, 17);
@@ -30,6 +30,13 @@ body{
 #galery img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: none;
+}
+
+#galery img.active {
+    display: block;
 }
 
 /* -------- ARROW --------- */

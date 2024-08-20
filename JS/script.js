@@ -17,10 +17,7 @@ for (let i = 0; i < pictures.lenth; i++){
  galeryElements.appendChild(picture);
 }
 
-
-
-let currentActiveIndex = 0; 
-
 //TODO   CREARE UN EVENTO PER CAMBIARE LE IMMAGINE
+//Aggiungere la class active, per vedere la immagine
 
 //TODO   CREARE UN LOOP QUANDO SE CAMBIA LA IMMAGINE
